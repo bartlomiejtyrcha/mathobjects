@@ -1,6 +1,6 @@
 Package: mathobjects
 Title: System obiektowy dotyczacy podstawowych figur matematycznych
-Version: 0.9.9.9
+Version: 1.0
 Authors@R: 
     c(person(given = "Bartlomiej", family = "Tyrcha",
            role = c("aut", "cre"), email = "bartyr2@st.amu.edu.pl"),
