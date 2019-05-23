@@ -23,14 +23,15 @@ Pakiet 'mathobjects' służy do tworzenia obiektów wybranych figur: koło, tró
 
 
 
+
 ``` r
-install.packages("mathobjects")
+install_github("tyrsien/mathobjects")
 ```
 
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("spacea/projekt-2019-tyrcha")
+devtools::install_github("tyrsien/mathobjects")
 ```
 ## Przykłady
 
