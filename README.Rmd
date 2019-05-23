@@ -1,0 +1,57 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+# mathobjects
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+Pakiet 'mathobjects' służy do tworzenia obiektów wybranych figur: koło, trójkąt równobocznym, trójkąt równoramienny, kwadrat, prostokąt. Oblicza na ich podstawie pola powierzchni, obwód. W kwadracie i prostokącie także oblicza przekątną, a w kole pole wycinka i długość łuku.
+
+## Instalacja
+
+
+
+``` r
+install.packages("mathobjects")
+```
+
+
+``` r
+# install.packages("devtools")
+devtools::install_github("spacea/projekt-2019-tyrcha")
+```
+## Przykłady
+
+Przykładowe funkcje w pakiecie 'mathobjects'. 
+
+```{r example}
+library(mathobjects)
+## basic example code
+```
+
+Funkcja *kwadrat()* tworzy obiekt o klasie 'kwadrat' zawierający macierz
+współrzędnych.
+
+```{r kwadrat}
+kwadrat(4, 4, 192, 192)
+```
+
+Aby obliczyć pole powierzchni kwadratu, należy użyć funkcji *pole_powierzchni_kwadrat* 
+
+```{r pole_powierzchni_kwadrat}
+pole_powierzchni_kwadrat(kwadrat(1, 1, 2, 2))
+```
+
+### Pakiet zbudowany przy pomocy strony https://nowosad.github.io/elp/  

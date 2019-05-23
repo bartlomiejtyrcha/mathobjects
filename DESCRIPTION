@@ -1,0 +1,13 @@
+Package: mathobjects
+Title: System obiektowy dotyczacy podstawowych figur matematycznych
+Version: 0.9.9.9
+Authors@R: 
+    c(person(given = "Bartlomiej", family = "Tyrcha",
+           role = c("aut", "cre"), email = "bartyr2@st.amu.edu.pl"),
+           person(given = "Izabela", family = "Smiech",
+           role = c("aut"), email = "izasmi2@st.amu.edu.pl"))
+Description: Pakiet pozwala tworzyc obiekty matematyczne i wyliczac na ich podstawie miary
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
